@@ -44,3 +44,42 @@
     position: absolute;
     top: 6rem;
 }
+
+#tooltip {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    text-align: center;
+    width: 150px;
+    height: 50px;
+    padding: 2px;
+    font-size: 12px;
+    background: #e4e3e3;
+    box-shadow: 1px 1px 10px;
+    border-radius: 2px;
+    pointer-events: none;
+}
+
+.overlay {
+    position: absolute;
+    background: #184d47;
+    pointer-events: none;
+}
+
+#y-axis path {
+    stroke: #2f2519;
+    stroke-width: 1;
+    fill: none;
+}
+
+#x-axis path {
+    stroke: #2f2519;
+    stroke-width: 1;
+    fill: none;
+}
+
+.info {
+    font-size: .75rem;
+}
+
